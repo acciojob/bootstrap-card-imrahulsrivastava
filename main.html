@@ -13,52 +13,49 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="m-5">
-      <div>
-        <h1>Welcome to Sync5</h1>
-      </div>
-
-      <!-- First Card - Mobile and Tablet Support Section -->
+    <header class="mx-5 mt-5">
+      <h1>Welcome to Sync5</h1>
+    </header>
+    <main class="mx-5 mt-0">
       <div class="card-deck">
-        <div class="card">
+        <!-- First Card -->
+        <div class="card my-2">
           <h5 class="card-header">New Features</h5>
           <div class="card-body">
-            <h5 class="card-title">Mobile and Tablet support</h5>
+            <h2 class="card-title">Mobile and Tablet support</h2>
             <p class="card-text">
               With this new update you will be able to sync your work across
               large number of platforms.
             </p>
-            <a href="#" class="btn btn-primary">Read more</a>
+            <button class="btn btn-primary text-light fw-medium">
+              Read more
+            </button>
           </div>
         </div>
-
-        <!-- Alert Section -->
-        <div
-          class="alert bg-danger text-white rounded mb-0 mx-1"
-          style="width: 18rem"
-        >
-          <div class="fw-bold border-bottom border-danger-subtle">Alert</div>
-          <h3 class="fw-bold fs-3">Node Dead</h3>
-          <p class="fw-semibold">
-            Node 5 (east-up) is offline for last 12 days.
-          </p>
-        </div>
-
-        <!-- Second Card - President under pressure section -->
-        <div class="card">
-          <img
-            src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2ZpbGUlMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            alt="an image"
-            class="card-img-top"
-          />
+        <!-- Second Card -->
+        <div class="card my-2 text-light bg-danger w-50">
+          <h5 class="card-header">Alert</h5>
           <div class="card-body">
-            <h5 class="card-title">President under Pressure</h5>
+            <h2 class="card-title">Node Dead</h2>
             <p class="card-text">
-              The US president is under pressure to respond to a widespread
-              cyber-attack linked to China.
+              Node 5 (east-us) is offline for last 12 days.
             </p>
-            <div class="text-muted">Last updated 12 mins ago</div>
           </div>
+        </div>
+      </div>
+      <div class="card my-2 mb-4">
+        <img
+          src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2ZpbGUlMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="an image"
+          class="card-img-top img-fluid"
+        />
+        <div class="card-body">
+          <h2 class="card-title">President under Pressure</h2>
+          <p class="card-text">
+            The US president is under pressure to respond to a widespread
+            cyber-attack linked to China.
+          </p>
+          <p class="text-muted m-0">Last updated 12 mins ago</p>
         </div>
       </div>
     </main>
